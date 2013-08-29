@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=c\ s\ f
+comment0.target=DepartmentChooser(ChooserListener,\ java.lang.String,\ FormPanel)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ DepartmentChooser\n\ \n\ @param\ c\ \:\ The\ ChooserListener\ of\ the\ RegHelper\ class\ that\ creates\ this\ window\n\ @param\ s\ \:\ String\ code\ of\ the\ currently\ selected\ School,\ passed\ from\ RegHelper\n\ \n
+comment1.params=e
+comment1.target=void\ valueChanged(javax.swing.event.ListSelectionEvent)
+comment1.text=\n\ When\ a\ department\ name\ is\ selected\ from\ the\ list,\ stores\ its\ relevant\ (string)\ Code\ and\ triggers\n\ the\ addition\ of\ a\ grade\ chooser\ panel\ to\ the\ main\ container\ window.\n\ \n\ This\ method\ is\ required\ by\ ListSelectionListener.\n\ \n\ @param\ \ e\ \:\ list\ selection\ event\n
+numComments=2

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Registration()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Registration\n\ \n
+comment1.params=
+comment1.target=void\ register()
+comment1.text=\n\ Checks\ if\ the\ given\ Staff\ ID\ is\ currently\ in\ use\ (Staff\ object\ already\ exists\ with\ that\ ID),\ and\ if\ not,\n\ creates\ a\ new\ staff\ object\ when\ called\ from\ RegHelper\ using\ the\ currently\ selected\ details.\n\ Also\ print\ a\ String\ descriptor\ of\ the\ newly\ registered\ staff\ member\ to\ the\ terminal.\n\ \n\ If\ the\ Staff\ ID\ is\ already\ in\ use,\ displays\ a\ dialog\ box\ prompting\ user\ to\ change\ Staff\ ID.\n\ \n
+comment2.params=s\ i
+comment2.target=void\ tell(java.lang.String,\ int)
+comment2.text=\n\ Overrides\ tell\ method\ in\ ChooserListener.\n\ Sets\ class\ attributes\ (staffId,\ staffName,\ deptCode,\ staffGrade)\ according\ to\ the\ selections\ made\ in\n\ RegHelper.\n\ \n\ This\ method\ is\ required\ by\ ChooserListener.\n\ \n\ @param\ s\ \:\ the\ String\ the\ attribute\ is\ to\ be\ set\ to.\n\ @param\ i\ \:\ the\ integer\ code\ for\ the\ attribute\ to\ be\ set.\n\ \n
+numComments=3

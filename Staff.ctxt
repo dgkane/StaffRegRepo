@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=id\ name\ grade
+comment0.target=Staff\ add(java.lang.String,\ java.lang.String,\ Grade)
+comment0.text=\n\ Creates\ a\ Staff\ object\ with\ the\ given\ attributes\ and\ adds\ that\ object\n\ to\ the\ register\ of\ staff\ provided\ that\ there\ is\ not\ already\ a\ staff\ member\n\ registered\ with\ the\ given\ id.\ In\ that\ case\ the\ return\ value\ is\ null.\n\ A\ new\ Staff\ record\ is\ not\ created\ if\ there\ is\ already\ a\ record\ with\ the\n\ given\ id.\ In\ that\ case\ the\ method\ returns\ the\ previously\ stored\ Staff\n\ object\ for\ the\ user's\ information.\n\ @param\ id\ \ \ \ the\ staff\ identification\ number\n\ @param\ name\ \ the\ name\ of\ the\ staff\ member\n\ @param\ grade\ the\ Grade\ object\ representing\ the\ salary\ level\ of\ the\ staff\ member\n\ @return\ null\ for\ a\ new\ staff\ member,\ otherwise\ previously\ stored\ Staff\ object\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ with\ the\ given\ id.\n
+comment1.params=id\ name\ grade
+comment1.target=Staff(java.lang.String,\ java.lang.String,\ Grade)
+comment2.params=id
+comment2.target=Staff\ getStaff(java.lang.String)
+comment2.text=\n\ Returns\ the\ Staff\ object\ for\ the\ registered\ staff\ with\ the\ given\ id.\n\ or\ null\ if\ there\ is\ no\ such\ staff\ member\n\ @param\ id\ \ \ a\ string\ containing\ the\ staff's\ id\n\ @return\ the\ Staff\ for\ the\ given\ id.\ or\ null\n
+comment3.params=
+comment3.target=java.lang.String\ getId()
+comment3.text=\n\ returns\ staff\ id\n\ @return\ the\ staff's\ id\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\n\ Returns\ a\ string\ representation\ of\ the\ Staff\ object.\n\ @return\ a\ string\ representation\ of\ the\ Staff\ object\n
+numComments=5

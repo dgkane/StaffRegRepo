@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=code\ name\ gradesOffered\ school
+comment0.target=Department\ add(java.lang.String,\ java.lang.String,\ java.lang.String[],\ School)
+comment0.text=\n\ Creates\ a\ Department\ object\ with\ the\ given\ attributes\ and\ adds\ that\ object\n\ to\ the\ collection\ of\ departments\ provided\ that\ there\ is\ not\ already\ a\ department\n\ recorded\ with\ the\ given\ department\ code.\ In\ that\ case\ the\ return\ value\ is\n\ null.\n\ A\ new\ Department\ record\ is\ not\ created\ if\ there\ is\ already\ a\ record\ with\ the\n\ given\ department\ code.\ In\ that\ case\ the\ method\ returns\ the\ previously\ stored\n\ Department\ object\ for\ the\ user's\ information.\n\ @param\ code\ \ the\ department\ code\n\ @param\ name\ \ the\ name\ of\ the\ department/job\ role\n\ @param\ gradesOffered\ the\ array\ of\ strings\ representing\ the\ pay\ grades\ available\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ for\ new\ staff\ joing\ the\ department\ or\ job\ role\n\ @param\ school\ the\ school\ that\ the\ department/job\ role\ is\ within\n\ @return\ null\ for\ a\ new\ department/job\ role,\ otherwise\ previously\ stored\ Department\ object\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ for\ the\ given\ department\ code\n
+comment1.params=code\ name\ gradesOffered\ school
+comment1.target=Department(java.lang.String,\ java.lang.String,\ java.lang.String[],\ School)
+comment2.params=code
+comment2.target=Department\ get(java.lang.String)
+comment2.text=\n\ Returns\ the\ Department\ object\ for\ the\ given\ course\ code\n\ @param\ code\ the\ department\ code\n\ @return\ the\ department\ for\ the\ given\ code\ or\ null\ if\ no\ department\ for\ that\ code\n\ \ \ \ \ \ \ \ \ is\ found\n
+comment3.params=code\ gradeNumber
+comment3.target=Grade\ get(java.lang.String,\ java.lang.String)
+comment3.text=\n\ Returns\ the\ Grade\ object\ for\ the\ given\ department\ code\ and\ pay\ grade\n\ @param\ code\ the\ department\ code\n\ @param\ gradeNumber\ the\ stage\ number\n\ @return\ the\ pay\ grade\ for\ the\ given\ department\ code\ and\ garde\ number\ or\ null\ if\n\ \ \ \ \ \ \ \ \ either\ there\ is\ no\ such\ pay\ grade\ offered\ in\ that\ department\ or\ the\ department\n\ \ \ \ \ \ \ \ \ is\ not\ found\n
+comment4.params=
+comment4.target=java.lang.String\ getCode()
+comment4.text=\n\ Returns\ the\ department/job\ role\ code\n\ @return\ the\ department/job\ role\ code\n
+comment5.params=
+comment5.target=java.lang.String\ getName()
+comment5.text=\n\ Returns\ the\ name\ of\ the\ department/job\ role.\n\ @return\ the\ name\ of\ the\ department/job\ role.\n
+comment6.params=
+comment6.target=Grade[]\ getGrades()
+comment6.text=\n\ Returns\ the\ array\ of\ the\ pay\ grades\ available\ for\ staff\ in\ this\ department/job\ role\n\ @return\ the\ array\ of\ pay\ grades\n
+comment7.params=gradeNumber
+comment7.target=Grade\ getGrade(java.lang.String)
+comment7.text=\n\ returns\ the\ Grade\ object\ for\ the\ given\ pay\ grade\ number\n\ @param\ gradeNumber\ the\ pay\ grade\ number\n\ @return\ the\ grade\ for\ the\ given\ stage\ number\ or\ null\ if\ there\ is\ no\ such\n\ \ \ \ \ \ \ \ \ stage\ in\ the\ course\n
+numComments=8

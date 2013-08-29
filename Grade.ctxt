@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=dept\ name
+comment0.target=Grade(Department,\ java.lang.String)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Grade\n\ @param\ dept\ the\ department\n\ @param\ name\ \ the\ identifier\ for\ this\ stage\ of\ the\ course\n
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment1.text=\n\ Returns\ the\ name\ of\ the\ pay\ grade\n\ @return\ the\ name\ of\ the\ stage\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\n\ Returns\ a\ string\ representation\ of\ the\ Grade\ object.\n\ @return\ a\ string\ representation\ of\ the\ Grade\ object.\n
+numComments=3

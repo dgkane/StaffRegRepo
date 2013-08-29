@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=code\ name
+comment0.target=School\ add(java.lang.String,\ java.lang.String)
+comment0.text=\n\ Creates\ a\ School\ object\ with\ the\ given\ attributes\ and\ adds\ that\n\ object\ to\ the\ collection\ of\ schools\ provided\ that\ there\ is\ not\n\ already\ a\ school\ recorded\ with\ the\ given\ school\ code.\ In\ that\n\ case\ the\ return\ value\ is\ null.\n\ A\ new\ School\ record\ is\ not\ created\ if\ there\ is\ already\ a\ record\ with\n\ the\ given\ school\ code.\ In\ that\ case\ the\ method\ returns\ the\n\ previously\ stored\ School\ object\ for\ the\ user's\ information.\n\ @param\ code\ \ the\ school\ code\n\ @param\ name\ \ the\ name\ of\ the\ school\n\ @return\ null\ for\ a\ new\ school,\ otherwise\ previously\ stored\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ School\ object\ for\ the\ given\ department\ code\n
+comment1.params=code\ name
+comment1.target=School(java.lang.String,\ java.lang.String)
+comment2.params=code
+comment2.target=School\ get(java.lang.String)
+comment2.text=\n\ Returns\ the\ school\ for\ a\ given\ code\ or\ null\ if\ there\ is\ no\n\ school\ for\ the\ code\n\ @param\ code\ the\ school\ code\n\ @return\ the\ school\ for\ the\ given\ code\ or\ null\ if\ there\ is\ no\ such\n\ \ \ \ \ \ \ \ \ school\n
+comment3.params=
+comment3.target=java.util.Collection\ getCollection()
+comment3.text=\n\ Returns\ the\ collection\ of\ all\ schools.\n\ The\ collection's\ iterator\ returns\ the\ schools\ in\ ascending\ order\n\ of\ school\ code.\n\ @return\ the\ collection\ of\ all\ schools\n
+comment4.params=
+comment4.target=java.lang.String\ getCode()
+comment4.text=\n\ Returns\ the\ code\ for\ the\ school\n\ @return\ the\ code\ for\ the\ school\n
+comment5.params=
+comment5.target=java.lang.String\ getName()
+comment5.text=\n\ Returns\ the\ name\ of\ the\ school\n\ @return\ the\ name\ of\ the\ school\n
+comment6.params=dept
+comment6.target=void\ add(Department)
+comment6.text=\n\ Adds\ a\ Department\ object\ to\ the\ collection\ of\ departments/job\ roles\ available\n\ for\ new\ staff\ members\ within\ the\ school\n\ @param\ \ course\ the\ Department\ to\ be\ added\n
+comment7.params=
+comment7.target=java.util.Collection\ getDepartments()
+comment7.text=\n\ Returns\ the\ collection\ of\ all\ departments/job\ roles\ within\ the\ school.\n\ The\ collection's\ iterator\ returns\ the\ departments/job\ roles\ in\ ascending\ order\n\ of\ department/job\ role\ code.\n\ @return\ the\ collection\ of\ all\ departments/job\ roles\ offered\ by\ the\ school\n
+numComments=8

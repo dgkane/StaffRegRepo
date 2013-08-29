@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=r\ f
+comment0.target=ButtonPanel(RegHelper,\ FormPanel)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ ButtonPanel\n\ \n\ @param\ r\ \:\ The\ ChooserListener\ of\ the\ RegHelper\ class\ that\ creates\ this\ window\n
+comment1.params=e
+comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment1.text=\n\ Triggers\ methods\ clearFields()\ or\ passToRegistration()\ in\ RegHelper\ when\ a\ button\ is\ pressed,\ depending\n\ on\ the\ ActionCommand\ sent\ to\ the\ listener.\n\ \n\ This\ method\ is\ required\ by\ ActionListener.\n\ \n\ @param\ \ e\ \:\ list\ selection\ event\n
+numComments=2
