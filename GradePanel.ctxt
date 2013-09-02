@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.params=c\ s
-comment0.target=GradePanel(ChooserListener,\ java.lang.String)
-comment0.text=\n\ Constructor\ for\ objects\ of\ class\ GradePanel\n\ \n\ @param\ c\ \:\ The\ ChooserListener\ of\ the\ RegHelper\ class\ that\ creates\ this\ window\n\ @param\ s\ \:\ String\ code\ of\ the\ currently\ selected\ Department,\ passed\ from\ RegHelper\n\ \n
-comment1.params=e
-comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
-comment1.text=\n\ When\ a\ grade\ radio\ button\ is\ selected,\ passes\ a\ String\ code\ to\ the\ RegHelper\ class.\n\ \n\ This\ method\ is\ required\ by\ ActionListener.\n\ \n\ @param\ \ e\ \:\ list\ selection\ event\n
-numComments=2

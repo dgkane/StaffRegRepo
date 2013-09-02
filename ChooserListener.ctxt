@@ -1,5 +1,0 @@
-#BlueJ class context
-comment0.params=s\ i
-comment0.target=void\ tell(java.lang.String,\ int)
-comment0.text=\n\ Slightly\ modified\ from\ Rod\ Fretwell's\ version.\n\ The\ method\ now\ tell()s\ a\ String\ rather\ than\ an\ object.\n\ \n\ @param\ s\ \:\ the\ String\ code\ of\ the\ school,\ department,\ grade,\ Staff\ ID\ or\ name\ corresponding\ to\ the\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ user's\ selection\n\ @param\ i\ \:\ the\ integer\ code\ for\ the\ attribute\ to\ be\ written\ to.\n\ \n
-numComments=1
